@@ -1,0 +1,35 @@
+:root{
+    /* Height */
+    --header-height:42px;
+    --slider-height:400px;
+    --content-work-height:136px;
+
+    /* Color */
+    --boder-color:#dbdbdb;
+    --text-color:#333;
+    --black-color:#000;
+    --white-color:#fff; 
+    --primary-color:#777;
+
+}
+*{
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.opacity-min{
+    opacity: 0.75;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.font-24px{
+    font-size: 2.4rem;
+}
